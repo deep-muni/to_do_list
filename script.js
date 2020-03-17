@@ -1,5 +1,14 @@
 var count = 0;
 
+var input = document.getElementById("task");
+
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+  	document.getElementById("add").click();
+  }
+});
+
 function addToList(){
 	var task_text = document.getElementById("task").value;
 	if(task_text != ""){
