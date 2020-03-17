@@ -1,1 +1,30 @@
-.completed { text-decoration: line-through}
+*{margin: 0; padding: 0;}
+
+body{background-color: aqua}
+
+.header{text-align: center;}
+
+.scroll-bar{position: relative; max-width: 600px; height: 500px; margin: 0 auto; overflow-y: auto; padding-right: 10px; background-color: #5F5F5F; border-radius: 5px;}
+
+::-webkit-scrollbar{height: 10px; width: 10px; background: #000;}
+
+::-webkit-scrollbar-thumb { border: 1px #000 solid; background: #fff;}
+
+.outer_wrapper{position: relative; width: 580px; height: 490px; margin: 0 auto; padding: 10px 10px 0; background-color: #5F5F5F; border-radius: 5px;}
+
+.addButton{width: 60px; height: 30px; float: right; border: none; background-color: #4CAF50; color: #fff; font-size: 20px; border-radius: 5px;}
+.user_input{padding-right: 10px; overflow: hidden;}
+.text{width: 95%; font-size: 20px; height: 30px; border: none; padding: 0 2.5%; border-radius: 5px;}
+
+.wrapper{background-color: #fff; margin-top: 15px; padding: 10px; border-radius: 5px;}
+
+.task_block{margin-top: 10px; overflow: hidden;}
+.task_name{display: inline-block; font-size: 20px; color: #000; line-height: 25px; width: 355px; overflow: hidden;text-overflow: ellipsis; white-space: nowrap; background-color: #f1f1f1; padding-left: 5px;}
+.actionButton{float: right; width: 100px; border: none; color: #fff; font-size: 20px; height: 25px; border-radius: 5px;}
+.complete{background-color: #4CAF50;}
+.completed { text-decoration: line-through;}
+.incomplete{background-color: #008CBA; width: 110px;}
+.delete{background-color: #f44336; margin-left: 5px; width: 75px;}
+
+.clear_area{text-align: center; margin-top: 15px; margin-bottom: 15px;}
+.clear{background-color: #4CAF50; border: none; color: #fff; font-size: 20px; width: 75px; height: 30px; border-radius: 5px;}

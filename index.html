@@ -7,13 +7,23 @@
 </head>
 <body>
 
-<input type="text" id="task">
-<button onclick="addToList()">Add</button>
+<h1 class="header">TO DO LIST</h1>
 
-<div class="wrapper" id="wrap"></div>
+<div class="scroll-bar">
+	<div class="outer_wrapper">
+		<button class="addButton" onclick="addToList()">Add</button>
+		<div class="user_input">
+			<input type="text" id="task" class="text" placeholder="Enter task name">
+		</div>
 
-<br>
-<button onclick="clearList()">Clear All</button>
+		<div class="wrapper" id="wrap">
+			<h2>Task</h2>
+		</div>
+		<div class="clear_area">
+			<button onclick="clearList()" class="clear">Clear</button>
+		</div>
+	<div>
+</div>
 
 </body>
 </html>
